@@ -25,6 +25,8 @@ AspectPatch(-, BOOL, application:(UIApplication *)application didFinishLaunching
         [MobClick startWithConfigure:UMConfigInstance];
         
         [MobClick setLogEnabled:analyticsManager.analyticsLogEnabled];
+        
+        [YWAnalyticsManager analyticsViewController];
     }
     
     return XAMessageForward(application:application didFinishLaunchingWithOptions:launchOptions);

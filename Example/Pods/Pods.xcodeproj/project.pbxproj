@@ -13,7 +13,7 @@
 		1C68B756B63D8BEDF972B35C3EA80847 /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = E27E2D9F5E8FEDBAD3D7C68DB421D9C7 /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		218C1E30BB9505AF12463FF6916D02FF /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D143E1319C3D70187A30549B04E761 /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2720DD9D4705270D89A2E3E51ACEAC21 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4EB13A5982ADF159D30BA6F88D9048 /* XACrystallization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42AE27EF1FA33A1E00D315C9 /* YWAnalytics-AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AE27EE1FA33A1E00D315C9 /* YWAnalytics-AppDelegate.m */; };
+		42AE27F11FA33C9C00D315C9 /* YWAppDelegate-Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AE27F01FA33C9C00D315C9 /* YWAppDelegate-Analytics.m */; };
 		4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4DDB014DEEA6956EBA60B5688B02C095 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6BF631CB80369EF4D703A5C2C03B09 /* XACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DED7DB3529DC5C23FEE91F9747E28DD /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,7 +109,7 @@
 		3D6BF631CB80369EF4D703A5C2C03B09 /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
 		3DF204A1FCFFC2471A68AFB4565D303A /* Pods-YWAnalytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWAnalytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		401E05CB9799B97986D22F087FA02388 /* Pods-YWAnalytics_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWAnalytics_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		42AE27EE1FA33A1E00D315C9 /* YWAnalytics-AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YWAnalytics-AppDelegate.m"; path = "YWAnalytics/Classes/YWAnalytics-AppDelegate.m"; sourceTree = "<group>"; };
+		42AE27F01FA33C9C00D315C9 /* YWAppDelegate-Analytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YWAppDelegate-Analytics.m"; path = "YWAnalytics/Classes/YWAppDelegate-Analytics.m"; sourceTree = "<group>"; };
 		479C29E77FBF69E510E84D8038DA45A0 /* libYWAppDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWAppDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1DA0DB9A55832CC73C44D6F797C823 /* Pods-YWAnalytics_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWAnalytics_Example-dummy.m"; sourceTree = "<group>"; };
 		4B5644C61C408D245357FB5A1D8011D4 /* Pods-YWAnalytics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWAnalytics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -324,7 +324,7 @@
 		AC22DB8D96EB2B492A4EC74ED63CE127 /* YWAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				42AE27EE1FA33A1E00D315C9 /* YWAnalytics-AppDelegate.m */,
+				42AE27F01FA33C9C00D315C9 /* YWAppDelegate-Analytics.m */,
 				2A7595123C552689738DD1B954279FB6 /* YWAnalyticsManager.h */,
 				B10696FBBD8D70415121EFF7CEF5F5FE /* YWAnalyticsManager.m */,
 				B6815178CB604453E778E236129BED05 /* Support Files */,
@@ -632,7 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42AE27EF1FA33A1E00D315C9 /* YWAnalytics-AppDelegate.m in Sources */,
+				42AE27F11FA33C9C00D315C9 /* YWAppDelegate-Analytics.m in Sources */,
 				0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */,
 				D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */,
 			);

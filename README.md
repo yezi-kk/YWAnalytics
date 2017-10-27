@@ -5,11 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YWAnalytics.svg?style=flat)](http://cocoapods.org/pods/YWAnalytics)
 [![Platform](https://img.shields.io/cocoapods/p/YWAnalytics.svg?style=flat)](http://cocoapods.org/pods/YWAnalytics)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+## About
+对友盟SDK基于AOP模式进行封装
 
 ## Installation
 
@@ -19,9 +16,24 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'YWAnalytics'
 ```
+## Use
 
-对友盟SDK基于AOP模式进行封装
+* 1.AppDelegate 继承 YWAppDelegate
+* 2.配置友盟参数
 
+```
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Override point for customization after application launch.
+    
+    YWAnalyticsManager *anlyticsManager = [YWAnalyticsManager sharedInstance];
+    anlyticsManager.appKey = @"xxxxxxxx";
+    anlyticsManager.channelID = @"AppStore";
+    anlyticsManager.prefixFilterArray = @[@"YW"];
+    
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
+}
+```
 
 ## Author
 

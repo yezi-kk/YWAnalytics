@@ -19,7 +19,6 @@
     anlyticsManager.appKey = @"xxxxxxxx";
     anlyticsManager.channelID = @"AppStore";
     anlyticsManager.prefixFilterArray = @[@"YW"];
-    [YWAnalyticsManager analyticsViewController];
     
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
