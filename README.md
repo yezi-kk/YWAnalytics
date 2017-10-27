@@ -22,7 +22,7 @@ pod 'YWAnalytics'
 
 ## Author
 
-Ye Wei, yewei@cheddd.com
+Ye Wei, 276208561@qq.com
 
 ## License
 

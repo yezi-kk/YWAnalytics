@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42AE27EB1FA32E6700D315C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AE27EA1FA32E6600D315C9 /* AppDelegate.m */; };
+		46485C711C9F837F5D58CC69 /* libPods-YWAnalytics_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 766BCE15F60774C83A8FF814 /* libPods-YWAnalytics_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YWAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* YWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -21,9 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		805621BC41248D9738DC4CD9 /* Pods_YWAnalytics_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BC8BCC610B9DB4E6C69003 /* Pods_YWAnalytics_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9EFEEED4B53B592B2728FEC0 /* Pods_YWAnalytics_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598811D966AF6EC1207CA188 /* Pods_YWAnalytics_Example.framework */; };
+		AEFB91BC8AD02CC6ABEF8175 /* libPods-YWAnalytics_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFF90B40334776C5C514F53 /* libPods-YWAnalytics_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		29C0F650C98FDDE648B03661 /* Pods-YWAnalytics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWAnalytics_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWAnalytics_Example/Pods-YWAnalytics_Example.release.xcconfig"; sourceTree = "<group>"; };
-		53B54094E9E9B0C5721321F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		42AE27E91FA32E6600D315C9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42AE27EA1FA32E6600D315C9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53B54094E9E9B0C5721321F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		54FEDDC42E08DC6FB1D7E551 /* Pods-YWAnalytics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWAnalytics_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWAnalytics_Tests/Pods-YWAnalytics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		598811D966AF6EC1207CA188 /* Pods_YWAnalytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWAnalytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59BC8BCC610B9DB4E6C69003 /* Pods_YWAnalytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWAnalytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YWAnalytics_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWAnalytics_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +50,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* YWAnalytics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YWAnalytics-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* YWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* YWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* YWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* YWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -62,11 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		766BCE15F60774C83A8FF814 /* libPods-YWAnalytics_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWAnalytics_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0D6A079265B01374A038289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8FFF90B40334776C5C514F53 /* libPods-YWAnalytics_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWAnalytics_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D6A079265B01374A038289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AD64D4280F7EC4D23F153DCC /* Pods-YWAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWAnalytics_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWAnalytics_Tests/Pods-YWAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C24581DD336C8EF36BE93F12 /* Pods-YWAnalytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWAnalytics_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWAnalytics_Example/Pods-YWAnalytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F697FF38FC453F90B1C31A84 /* YWAnalytics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YWAnalytics.podspec; path = ../YWAnalytics.podspec; sourceTree = "<group>"; };
+		F697FF38FC453F90B1C31A84 /* YWAnalytics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YWAnalytics.podspec; path = ../YWAnalytics.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9EFEEED4B53B592B2728FEC0 /* Pods_YWAnalytics_Example.framework in Frameworks */,
+				46485C711C9F837F5D58CC69 /* libPods-YWAnalytics_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				805621BC41248D9738DC4CD9 /* Pods_YWAnalytics_Tests.framework in Frameworks */,
+				AEFB91BC8AD02CC6ABEF8175 /* libPods-YWAnalytics_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				598811D966AF6EC1207CA188 /* Pods_YWAnalytics_Example.framework */,
-				59BC8BCC610B9DB4E6C69003 /* Pods_YWAnalytics_Tests.framework */,
+				766BCE15F60774C83A8FF814 /* libPods-YWAnalytics_Example.a */,
+				8FFF90B40334776C5C514F53 /* libPods-YWAnalytics_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 		6003F593195388D20070C39A /* Example for YWAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* YWAppDelegate.h */,
-				6003F59D195388D20070C39A /* YWAppDelegate.m */,
+				42AE27E91FA32E6600D315C9 /* AppDelegate.h */,
+				42AE27EA1FA32E6600D315C9 /* AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YWViewController.h */,
 				6003F5A6195388D20070C39A /* YWViewController.m */,
@@ -349,11 +349,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YWAnalytics_Example/Pods-YWAnalytics_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YWAnalytics/YWAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/XAspect/XAspect.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YWAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XAspect.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,9 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* YWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				42AE27EB1FA32E6700D315C9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

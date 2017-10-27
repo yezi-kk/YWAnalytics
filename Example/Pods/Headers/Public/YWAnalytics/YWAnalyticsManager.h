@@ -1,0 +1,1 @@
+../../../../../YWAnalytics/Classes/YWAnalyticsManager.h

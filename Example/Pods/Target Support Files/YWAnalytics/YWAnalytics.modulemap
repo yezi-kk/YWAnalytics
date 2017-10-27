@@ -1,0 +1,6 @@
+framework module YWAnalytics {
+  umbrella header "YWAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}

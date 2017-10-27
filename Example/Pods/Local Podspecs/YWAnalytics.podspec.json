@@ -1,0 +1,36 @@
+{
+  "name": "YWAnalytics",
+  "version": "0.1.0",
+  "summary": "A short description of YWAnalytics.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yezi-kk/YWAnalytics",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ye Wei": "276208561@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yezi-kk/YWAnalytics.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YWAnalytics/Classes/**/*",
+  "dependencies": {
+    "UMengAnalytics-NO-IDFA": [
+      "~> 4.2.5"
+    ],
+    "Aspects": [
+      "~> 1.4.1"
+    ],
+    "XAspect": [
+      "~> 1.0.5"
+    ],
+    "YWAppDelegate": [
+      "~> 0.1.0"
+    ]
+  }
+}

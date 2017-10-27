@@ -1,0 +1,6 @@
+framework module Pods_YWAnalytics_Example {
+  umbrella header "Pods-YWAnalytics_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

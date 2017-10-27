@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DBF045842398F8E4E3A799C6E267B1 /* Pods-YWAnalytics_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DA0DB9A55832CC73C44D6F797C823 /* Pods-YWAnalytics_Example-dummy.m */; };
+		016F0BFC8298F4CDE14D109570641A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED14EC3CDE216136D9C9CDF9FD9AA931 /* Aspects-dummy.m */; };
+		1C68B756B63D8BEDF972B35C3EA80847 /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = E27E2D9F5E8FEDBAD3D7C68DB421D9C7 /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		218C1E30BB9505AF12463FF6916D02FF /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D143E1319C3D70187A30549B04E761 /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2720DD9D4705270D89A2E3E51ACEAC21 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4EB13A5982ADF159D30BA6F88D9048 /* XACrystallization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42AE27ED1FA32EC300D315C9 /* YWAppDelegate-Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AE27EC1FA32EC300D315C9 /* YWAppDelegate-Analytics.m */; };
+		4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4DDB014DEEA6956EBA60B5688B02C095 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6BF631CB80369EF4D703A5C2C03B09 /* XACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DED7DB3529DC5C23FEE91F9747E28DD /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CFA0912B746507F41C7111D9971A8D /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B8C2DE81949E2E768092625DBE0CD /* YWAppDelegate.m */; };
+		776CDFE0DDE1ECC4DEA602F5D063EF42 /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = AF95F3DA601D81AE91DD2CBEC083471F /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77FAB0119FC602B02BE4B796FDFD6450 /* XAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F81E142EF06621E0D0BDA067181F66 /* XAspect-dummy.m */; };
+		780112E6521C738DFAC51948EF2C49DB /* Pods-YWAnalytics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA31846CF1D7F78F08BEFA97666960 /* Pods-YWAnalytics_Tests-dummy.m */; };
+		7E34A0CE5B2394A743C4816C99099092 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 517E2BD33D7C81E29CA59F45902E6AAF /* XAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FAD68EB35BCEBF89DE1CCACA0C9C1A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		86B98ED7EC917422E5B1BD924C5740BE /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = CC39406CDCB61BC82E74577C98AFF931 /* XAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CDA2D3FF9582CE34A99B8493636FD23 /* YWAppDelegate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3318D3825FC465D822B51B8C40B60817 /* YWAppDelegate-dummy.m */; };
+		92BDAB83A871E5F5B0B3A797F8999B34 /* YWAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B005D0AC7A763FB836429CBB10D7FE6 /* YWAnalytics-dummy.m */; };
+		956DF988CE655CC856E78A7FD229790B /* YWAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC53DFD98CA4E4E56601803A290BE83 /* YWAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB67CABAF6038976BCB23E652735D44 /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3276F459D4F7A33A36ED74D94BA971C9 /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F25FFF6D182CE2954BECD0ED1072551 /* YWAnalyticsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7595123C552689738DD1B954279FB6 /* YWAnalyticsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36458DE9B379CF2172E14F904ADC9C9 /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A283EAD2470F6F13DB9B5131448AD5B /* XADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36FDE32AF454D41018286A8FB7C35E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A7EEF52017480E1C8CBDFE7726E71E0D /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12108D2FCEFD96A71A14E75D61BC879D /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A97892BA35BAD2337F727CADED7FB7FD /* YWAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B10696FBBD8D70415121EFF7CEF5F5FE /* YWAnalyticsManager.m */; };
+		D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CFBB82B970E82F19B49A55331E892B /* Aspects.m */; };
+		DB8272335A525282F28C58257E3F0AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E9CBCF32B08DF42C35216A4CB1B1EB54 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 550B8ED6506C251966688CD1D6961E91 /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB2982D7462B8B77543A9A84759744BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB12C71F8E10C142CF43CDEE52D8835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C5FD310966070D9553E5B95C59641B;
+			remoteInfo = Aspects;
+		};
+		95F81F31B5FF9A0EE11242752919AF23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C5FD310966070D9553E5B95C59641B;
+			remoteInfo = Aspects;
+		};
+		9A3D68BF507C5CF4BBC7F2DAC11CD060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637681AF067D45D433ABA1FD34A6DAA6;
+			remoteInfo = XAspect;
+		};
+		C1361ADD240A5B6A22EA2C049856692B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637681AF067D45D433ABA1FD34A6DAA6;
+			remoteInfo = XAspect;
+		};
+		C621259DBAC845103917B7CBE9C1C7DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89840FAF164F2292C8B328B0874BDC00;
+			remoteInfo = YWAnalytics;
+		};
+		DD3FDF42DC2CD0E64E624BC9EEA4CCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B11F10603C59A5A3183CE9F763072E;
+			remoteInfo = YWAppDelegate;
+		};
+		DD8D71B5E55F15FB87D05F542EEC5AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B11F10603C59A5A3183CE9F763072E;
+			remoteInfo = YWAppDelegate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12108D2FCEFD96A71A14E75D61BC879D /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
+		194A6BC6EB59C9A3F6F4659DB3A606EE /* libPods-YWAnalytics_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWAnalytics_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA6ED3C678FECD0F3EA24728949C8C0 /* Pods-YWAnalytics_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWAnalytics_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D4E5CEB878B24E98A825BD9D43B8CCE /* Pods-YWAnalytics_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWAnalytics_Tests-resources.sh"; sourceTree = "<group>"; };
+		27FC0E6C4F53D40FC81AEFC812C7311C /* Pods-YWAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A3B8C2DE81949E2E768092625DBE0CD /* YWAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWAppDelegate.m; path = YWAppDelegate/Classes/YWAppDelegate.m; sourceTree = "<group>"; };
+		2A7595123C552689738DD1B954279FB6 /* YWAnalyticsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWAnalyticsManager.h; path = YWAnalytics/Classes/YWAnalyticsManager.h; sourceTree = "<group>"; };
+		2B005D0AC7A763FB836429CBB10D7FE6 /* YWAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWAnalytics-dummy.m"; sourceTree = "<group>"; };
+		2FE4FD6E45CE69B8EFA6A9FCD3A30ADB /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3276F459D4F7A33A36ED74D94BA971C9 /* XAExtObjcMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAExtObjcMetamacros.h; path = XAspect/Macros/XAExtObjcMetamacros.h; sourceTree = "<group>"; };
+		32CFBB82B970E82F19B49A55331E892B /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		3318D3825FC465D822B51B8C40B60817 /* YWAppDelegate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWAppDelegate-dummy.m"; sourceTree = "<group>"; };
+		364C4C464F09C27C0C4DFAAE30A4D654 /* Pods-YWAnalytics_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWAnalytics_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3A283EAD2470F6F13DB9B5131448AD5B /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
+		3D6BF631CB80369EF4D703A5C2C03B09 /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
+		3DF204A1FCFFC2471A68AFB4565D303A /* Pods-YWAnalytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWAnalytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		401E05CB9799B97986D22F087FA02388 /* Pods-YWAnalytics_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWAnalytics_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42AE27EC1FA32EC300D315C9 /* YWAppDelegate-Analytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YWAppDelegate-Analytics.m"; sourceTree = "<group>"; };
+		479C29E77FBF69E510E84D8038DA45A0 /* libYWAppDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWAppDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1DA0DB9A55832CC73C44D6F797C823 /* Pods-YWAnalytics_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWAnalytics_Example-dummy.m"; sourceTree = "<group>"; };
+		4B5644C61C408D245357FB5A1D8011D4 /* Pods-YWAnalytics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWAnalytics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C802AED5670DC55D8FAD86BF4234C58 /* YWAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWAnalytics.xcconfig; sourceTree = "<group>"; };
+		517E2BD33D7C81E29CA59F45902E6AAF /* XAFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAFoundation.h; path = XAspect/Macros/XAFoundation.h; sourceTree = "<group>"; };
+		5396C8AE6A050A16D869792F931BD636 /* libYWAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B8ED6506C251966688CD1D6961E91 /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
+		5C4EB13A5982ADF159D30BA6F88D9048 /* XACrystallization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACrystallization.h; path = XAspect/Core/XACrystallization.h; sourceTree = "<group>"; };
+		5DED7DB3529DC5C23FEE91F9747E28DD /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		5E3F00C96D9919FAB9882C4686217B6B /* Pods-YWAnalytics_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWAnalytics_Example-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AD16DBB312716EE894D85B5991841B0 /* YWAppDelegate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWAppDelegate.xcconfig; sourceTree = "<group>"; };
+		7157081DD5DA2C252C9E78BB3F57D9DD /* Pods-YWAnalytics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWAnalytics_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7DE25BF1118933404DC77C6B17285D2E /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		81D143E1319C3D70187A30549B04E761 /* XAWeaveHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAWeaveHandler.h; path = XAspect/Core/XAWeaveHandler.h; sourceTree = "<group>"; };
+		8DC53DFD98CA4E4E56601803A290BE83 /* YWAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWAppDelegate.h; path = YWAppDelegate/Classes/YWAppDelegate.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B1AE4BA97322FF937C50E0FB6FBC541 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = "umsdk_IOS_analyics_no-idfa_v4.2.5/UMMobClick.framework"; sourceTree = "<group>"; };
+		9D1B0A5883FA805BB5E7652BA655DBE6 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		A5C078666A5AFD7FD82B00F2C7D3E520 /* XAspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XAspect-prefix.pch"; sourceTree = "<group>"; };
+		AF95F3DA601D81AE91DD2CBEC083471F /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
+		AFCA31846CF1D7F78F08BEFA97666960 /* Pods-YWAnalytics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWAnalytics_Tests-dummy.m"; sourceTree = "<group>"; };
+		B10696FBBD8D70415121EFF7CEF5F5FE /* YWAnalyticsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWAnalyticsManager.m; path = YWAnalytics/Classes/YWAnalyticsManager.m; sourceTree = "<group>"; };
+		B56F52E7C165903DE96EEF3A0881DCEA /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2E078CFA443454B01929CED723BDB9 /* Pods-YWAnalytics_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWAnalytics_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2C4DF6C511D286D9DC993F0EEEF56E5 /* Pods-YWAnalytics_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWAnalytics_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C2D981835D2F8E646334E1C9558E1990 /* YWAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWAnalytics-prefix.pch"; sourceTree = "<group>"; };
+		C9E53EC0635784A5BC3DF89366D65691 /* YWAppDelegate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWAppDelegate-prefix.pch"; sourceTree = "<group>"; };
+		CC39406CDCB61BC82E74577C98AFF931 /* XAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAspect.h; path = XAspect/XAspect.h; sourceTree = "<group>"; };
+		DA91A4D44DCD0F3FBDBF07AE382E2202 /* XAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XAspect.xcconfig; sourceTree = "<group>"; };
+		E27E2D9F5E8FEDBAD3D7C68DB421D9C7 /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAObjcMetaprogramming.h; path = XAspect/Macros/XAObjcMetaprogramming.h; sourceTree = "<group>"; };
+		E586B7B535111E94690B1DB76235F6EF /* libPods-YWAnalytics_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWAnalytics_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F81E142EF06621E0D0BDA067181F66 /* XAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XAspect-dummy.m"; sourceTree = "<group>"; };
+		ED14EC3CDE216136D9C9CDF9FD9AA931 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		F1E770D1593EC60C9240DAA2F7B0B7EA /* Pods-YWAnalytics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWAnalytics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB86F1C926F80C17839E69F9517B677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAD68EB35BCEBF89DE1CCACA0C9C1A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BBF288F81F412A9DDEBAA7899D12ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2982D7462B8B77543A9A84759744BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7258077392A49329EBE40B1EDBB81C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36FDE32AF454D41018286A8FB7C35E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97236DFB51834717AEC60C3F2772C40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8272335A525282F28C58257E3F0AB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76B3CDBA60C89C6814413C0458AD17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016F0BFC8298F4CDE14D109570641A17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7BBE728C49110B1F0CD42AB3E4F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14FDA67C8A188C77F56165E7FE47D3B2 /* YWAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8DC53DFD98CA4E4E56601803A290BE83 /* YWAppDelegate.h */,
+				2A3B8C2DE81949E2E768092625DBE0CD /* YWAppDelegate.m */,
+				944E51F55B035AC057940582BE5A9579 /* Support Files */,
+			);
+			path = YWAppDelegate;
+			sourceTree = "<group>";
+		};
+		1C599B96901C7FAC0129C29A767BF03B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B1AE4BA97322FF937C50E0FB6FBC541 /* UMMobClick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2755979FB343AF5035EC988AFD40E268 /* Pods-YWAnalytics_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6ED3C678FECD0F3EA24728949C8C0 /* Pods-YWAnalytics_Tests-acknowledgements.markdown */,
+				4B5644C61C408D245357FB5A1D8011D4 /* Pods-YWAnalytics_Tests-acknowledgements.plist */,
+				AFCA31846CF1D7F78F08BEFA97666960 /* Pods-YWAnalytics_Tests-dummy.m */,
+				364C4C464F09C27C0C4DFAAE30A4D654 /* Pods-YWAnalytics_Tests-frameworks.sh */,
+				1D4E5CEB878B24E98A825BD9D43B8CCE /* Pods-YWAnalytics_Tests-resources.sh */,
+				F1E770D1593EC60C9240DAA2F7B0B7EA /* Pods-YWAnalytics_Tests.debug.xcconfig */,
+				27FC0E6C4F53D40FC81AEFC812C7311C /* Pods-YWAnalytics_Tests.release.xcconfig */,
+			);
+			name = "Pods-YWAnalytics_Tests";
+			path = "Target Support Files/Pods-YWAnalytics_Tests";
+			sourceTree = "<group>";
+		};
+		2E33645CA6AF722B638EBE016D8B51F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B383654A7D7CF34040A2AFAE347ED4E /* Pods-YWAnalytics_Example */,
+				2755979FB343AF5035EC988AFD40E268 /* Pods-YWAnalytics_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3B21C199EB36851786CDC37954EEDCBD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF95F3DA601D81AE91DD2CBEC083471F /* XACExtensions.c */,
+				3D6BF631CB80369EF4D703A5C2C03B09 /* XACExtensions.h */,
+				550B8ED6506C251966688CD1D6961E91 /* XACrystallization.cpp */,
+				5C4EB13A5982ADF159D30BA6F88D9048 /* XACrystallization.h */,
+				12108D2FCEFD96A71A14E75D61BC879D /* XAWeaveHandler.cpp */,
+				81D143E1319C3D70187A30549B04E761 /* XAWeaveHandler.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7B383654A7D7CF34040A2AFAE347ED4E /* Pods-YWAnalytics_Example */ = {
+			isa = PBXGroup;
+			children = (
+				401E05CB9799B97986D22F087FA02388 /* Pods-YWAnalytics_Example-acknowledgements.markdown */,
+				BF2E078CFA443454B01929CED723BDB9 /* Pods-YWAnalytics_Example-acknowledgements.plist */,
+				4A1DA0DB9A55832CC73C44D6F797C823 /* Pods-YWAnalytics_Example-dummy.m */,
+				C2C4DF6C511D286D9DC993F0EEEF56E5 /* Pods-YWAnalytics_Example-frameworks.sh */,
+				5E3F00C96D9919FAB9882C4686217B6B /* Pods-YWAnalytics_Example-resources.sh */,
+				3DF204A1FCFFC2471A68AFB4565D303A /* Pods-YWAnalytics_Example.debug.xcconfig */,
+				7157081DD5DA2C252C9E78BB3F57D9DD /* Pods-YWAnalytics_Example.release.xcconfig */,
+			);
+			name = "Pods-YWAnalytics_Example";
+			path = "Target Support Files/Pods-YWAnalytics_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7DC5DF4E931BAE379D94043C35C2E4E3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F9C4A0EF05AE7B1A0E06A36A9DFE8A2E /* Pods */,
+				F8EE390D69B25A5977BAB82C891E9714 /* Products */,
+				2E33645CA6AF722B638EBE016D8B51F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC5DF4E931BAE379D94043C35C2E4E3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC22DB8D96EB2B492A4EC74ED63CE127 /* YWAnalytics */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B287A34AEE1518EC96DC01A75376A11 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				3A283EAD2470F6F13DB9B5131448AD5B /* XADebugMacros.h */,
+				3276F459D4F7A33A36ED74D94BA971C9 /* XAExtObjcMetamacros.h */,
+				517E2BD33D7C81E29CA59F45902E6AAF /* XAFoundation.h */,
+				E27E2D9F5E8FEDBAD3D7C68DB421D9C7 /* XAObjcMetaprogramming.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		9071DC0FFB8C0953BC7BF509FF68F948 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				5DED7DB3529DC5C23FEE91F9747E28DD /* Aspects.h */,
+				32CFBB82B970E82F19B49A55331E892B /* Aspects.m */,
+				F61FD70EA64C7C3B7850A39CDAAED6D0 /* Support Files */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		944E51F55B035AC057940582BE5A9579 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD16DBB312716EE894D85B5991841B0 /* YWAppDelegate.xcconfig */,
+				3318D3825FC465D822B51B8C40B60817 /* YWAppDelegate-dummy.m */,
+				C9E53EC0635784A5BC3DF89366D65691 /* YWAppDelegate-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YWAppDelegate";
+			sourceTree = "<group>";
+		};
+		AC22DB8D96EB2B492A4EC74ED63CE127 /* YWAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				2A7595123C552689738DD1B954279FB6 /* YWAnalyticsManager.h */,
+				B10696FBBD8D70415121EFF7CEF5F5FE /* YWAnalyticsManager.m */,
+				42AE27EC1FA32EC300D315C9 /* YWAppDelegate-Analytics.m */,
+				B6815178CB604453E778E236129BED05 /* Support Files */,
+			);
+			name = YWAnalytics;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B6815178CB604453E778E236129BED05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C802AED5670DC55D8FAD86BF4234C58 /* YWAnalytics.xcconfig */,
+				2B005D0AC7A763FB836429CBB10D7FE6 /* YWAnalytics-dummy.m */,
+				C2D981835D2F8E646334E1C9558E1990 /* YWAnalytics-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YWAnalytics";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7CB43D06D31FC5BEEF5A3F71A1742A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA91A4D44DCD0F3FBDBF07AE382E2202 /* XAspect.xcconfig */,
+				E5F81E142EF06621E0D0BDA067181F66 /* XAspect-dummy.m */,
+				A5C078666A5AFD7FD82B00F2C7D3E520 /* XAspect-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XAspect";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5794932B477FDF18D92D5698247094A /* UMengAnalytics-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				1C599B96901C7FAC0129C29A767BF03B /* Frameworks */,
+			);
+			path = "UMengAnalytics-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		F49C5EEC30AFC31C80ABB6D4A74A8D1C /* XAspect */ = {
+			isa = PBXGroup;
+			children = (
+				CC39406CDCB61BC82E74577C98AFF931 /* XAspect.h */,
+				3B21C199EB36851786CDC37954EEDCBD /* Core */,
+				8B287A34AEE1518EC96DC01A75376A11 /* Macros */,
+				C7CB43D06D31FC5BEEF5A3F71A1742A7 /* Support Files */,
+			);
+			path = XAspect;
+			sourceTree = "<group>";
+		};
+		F61FD70EA64C7C3B7850A39CDAAED6D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1B0A5883FA805BB5E7652BA655DBE6 /* Aspects.xcconfig */,
+				ED14EC3CDE216136D9C9CDF9FD9AA931 /* Aspects-dummy.m */,
+				7DE25BF1118933404DC77C6B17285D2E /* Aspects-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		F8EE390D69B25A5977BAB82C891E9714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56F52E7C165903DE96EEF3A0881DCEA /* libAspects.a */,
+				E586B7B535111E94690B1DB76235F6EF /* libPods-YWAnalytics_Example.a */,
+				194A6BC6EB59C9A3F6F4659DB3A606EE /* libPods-YWAnalytics_Tests.a */,
+				2FE4FD6E45CE69B8EFA6A9FCD3A30ADB /* libXAspect.a */,
+				5396C8AE6A050A16D869792F931BD636 /* libYWAnalytics.a */,
+				479C29E77FBF69E510E84D8038DA45A0 /* libYWAppDelegate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C4A0EF05AE7B1A0E06A36A9DFE8A2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9071DC0FFB8C0953BC7BF509FF68F948 /* Aspects */,
+				D5794932B477FDF18D92D5698247094A /* UMengAnalytics-NO-IDFA */,
+				F49C5EEC30AFC31C80ABB6D4A74A8D1C /* XAspect */,
+				14FDA67C8A188C77F56165E7FE47D3B2 /* YWAppDelegate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0838161285D7F3F57DBEEAF1DF631472 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBD9C03A14111F3E82005B5A78B531E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDB014DEEA6956EBA60B5688B02C095 /* XACExtensions.h in Headers */,
+				2720DD9D4705270D89A2E3E51ACEAC21 /* XACrystallization.h in Headers */,
+				A36458DE9B379CF2172E14F904ADC9C9 /* XADebugMacros.h in Headers */,
+				9EB67CABAF6038976BCB23E652735D44 /* XAExtObjcMetamacros.h in Headers */,
+				7E34A0CE5B2394A743C4816C99099092 /* XAFoundation.h in Headers */,
+				1C68B756B63D8BEDF972B35C3EA80847 /* XAObjcMetaprogramming.h in Headers */,
+				86B98ED7EC917422E5B1BD924C5740BE /* XAspect.h in Headers */,
+				218C1E30BB9505AF12463FF6916D02FF /* XAWeaveHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C863FF024273D7482F0917E2F6ED488B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956DF988CE655CC856E78A7FD229790B /* YWAppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF7B4E4B07DE9AEA0482A7758EE1137 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25FFF6D182CE2954BECD0ED1072551 /* YWAnalyticsManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08ECA1E832CDC6B51A3415DEB900F995 /* Pods-YWAnalytics_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E87BF5DAAC9F506A17DBBFEC3E50FB9 /* Build configuration list for PBXNativeTarget "Pods-YWAnalytics_Example" */;
+			buildPhases = (
+				AF40CF533232B10FFA16E416C27CBC39 /* Sources */,
+				F76B3CDBA60C89C6814413C0458AD17D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98EFDA81B682C17408BC27F9DC772980 /* PBXTargetDependency */,
+				4A1E4690F5C53A749F7507F76A1480E4 /* PBXTargetDependency */,
+				1EF066F7093EACB7EC7FF65BBE9A22C2 /* PBXTargetDependency */,
+				37007E405A887BFAFA3FEF482C67382D /* PBXTargetDependency */,
+			);
+			name = "Pods-YWAnalytics_Example";
+			productName = "Pods-YWAnalytics_Example";
+			productReference = E586B7B535111E94690B1DB76235F6EF /* libPods-YWAnalytics_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		19B11F10603C59A5A3183CE9F763072E /* YWAppDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558B4F736ABD8580E3C0EA2021B097D2 /* Build configuration list for PBXNativeTarget "YWAppDelegate" */;
+			buildPhases = (
+				42468121C204BCABF6E0A9FFC9A1AB62 /* Sources */,
+				97236DFB51834717AEC60C3F2772C40E /* Frameworks */,
+				C863FF024273D7482F0917E2F6ED488B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWAppDelegate;
+			productName = YWAppDelegate;
+			productReference = 479C29E77FBF69E510E84D8038DA45A0 /* libYWAppDelegate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		637681AF067D45D433ABA1FD34A6DAA6 /* XAspect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A0E98B27D50D9EF21E824C6F388050 /* Build configuration list for PBXNativeTarget "XAspect" */;
+			buildPhases = (
+				06611CDAE7786BB964AF21DAB9745DA3 /* Sources */,
+				48BBF288F81F412A9DDEBAA7899D12ED /* Frameworks */,
+				8CBD9C03A14111F3E82005B5A78B531E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XAspect;
+			productName = XAspect;
+			productReference = 2FE4FD6E45CE69B8EFA6A9FCD3A30ADB /* libXAspect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89840FAF164F2292C8B328B0874BDC00 /* YWAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640A33B4851607BAA38FD20CCE79CECB /* Build configuration list for PBXNativeTarget "YWAnalytics" */;
+			buildPhases = (
+				BE79F753532FBBF1C159C179AB537BC8 /* Sources */,
+				0EB86F1C926F80C17839E69F9517B677 /* Frameworks */,
+				CCF7B4E4B07DE9AEA0482A7758EE1137 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E66510D4325FEE62851A83FC8A0E71 /* PBXTargetDependency */,
+				A54F86E03728DF159529B12B5F78BF05 /* PBXTargetDependency */,
+				50FC1D0DF70C8D1FD62B4CE97FDD0EA4 /* PBXTargetDependency */,
+			);
+			name = YWAnalytics;
+			productName = YWAnalytics;
+			productReference = 5396C8AE6A050A16D869792F931BD636 /* libYWAnalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BDC6E10EA71B6E1AB7FEDF8926EA317D /* Pods-YWAnalytics_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742C56FC3C9F1A142EB9758F95F8A397 /* Build configuration list for PBXNativeTarget "Pods-YWAnalytics_Tests" */;
+			buildPhases = (
+				248DE206D838D2804703FFC01A46D6B9 /* Sources */,
+				7258077392A49329EBE40B1EDBB81C51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YWAnalytics_Tests";
+			productName = "Pods-YWAnalytics_Tests";
+			productReference = 194A6BC6EB59C9A3F6F4659DB3A606EE /* libPods-YWAnalytics_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7C5FD310966070D9553E5B95C59641B /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDD598D97160FAFC23522D96D16607C /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				333DA74B4E797F48FFF01D823B85E3CC /* Sources */,
+				FF7BBE728C49110B1F0CD42AB3E4F3AB /* Frameworks */,
+				0838161285D7F3F57DBEEAF1DF631472 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = B56F52E7C165903DE96EEF3A0881DCEA /* libAspects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F8EE390D69B25A5977BAB82C891E9714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C5FD310966070D9553E5B95C59641B /* Aspects */,
+				08ECA1E832CDC6B51A3415DEB900F995 /* Pods-YWAnalytics_Example */,
+				BDC6E10EA71B6E1AB7FEDF8926EA317D /* Pods-YWAnalytics_Tests */,
+				637681AF067D45D433ABA1FD34A6DAA6 /* XAspect */,
+				89840FAF164F2292C8B328B0874BDC00 /* YWAnalytics */,
+				19B11F10603C59A5A3183CE9F763072E /* YWAppDelegate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06611CDAE7786BB964AF21DAB9745DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776CDFE0DDE1ECC4DEA602F5D063EF42 /* XACExtensions.c in Sources */,
+				E9CBCF32B08DF42C35216A4CB1B1EB54 /* XACrystallization.cpp in Sources */,
+				77FAB0119FC602B02BE4B796FDFD6450 /* XAspect-dummy.m in Sources */,
+				A7EEF52017480E1C8CBDFE7726E71E0D /* XAWeaveHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248DE206D838D2804703FFC01A46D6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780112E6521C738DFAC51948EF2C49DB /* Pods-YWAnalytics_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333DA74B4E797F48FFF01D823B85E3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AE27ED1FA32EC300D315C9 /* YWAppDelegate-Analytics.m in Sources */,
+				0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */,
+				D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42468121C204BCABF6E0A9FFC9A1AB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDA2D3FF9582CE34A99B8493636FD23 /* YWAppDelegate-dummy.m in Sources */,
+				65CFA0912B746507F41C7111D9971A8D /* YWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF40CF533232B10FFA16E416C27CBC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DBF045842398F8E4E3A799C6E267B1 /* Pods-YWAnalytics_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE79F753532FBBF1C159C179AB537BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BDAB83A871E5F5B0B3A797F8999B34 /* YWAnalytics-dummy.m in Sources */,
+				A97892BA35BAD2337F727CADED7FB7FD /* YWAnalyticsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EF066F7093EACB7EC7FF65BBE9A22C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YWAnalytics;
+			target = 89840FAF164F2292C8B328B0874BDC00 /* YWAnalytics */;
+			targetProxy = C621259DBAC845103917B7CBE9C1C7DB /* PBXContainerItemProxy */;
+		};
+		37007E405A887BFAFA3FEF482C67382D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YWAppDelegate;
+			target = 19B11F10603C59A5A3183CE9F763072E /* YWAppDelegate */;
+			targetProxy = DD3FDF42DC2CD0E64E624BC9EEA4CCB6 /* PBXContainerItemProxy */;
+		};
+		4A1E4690F5C53A749F7507F76A1480E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XAspect;
+			target = 637681AF067D45D433ABA1FD34A6DAA6 /* XAspect */;
+			targetProxy = 9A3D68BF507C5CF4BBC7F2DAC11CD060 /* PBXContainerItemProxy */;
+		};
+		50FC1D0DF70C8D1FD62B4CE97FDD0EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YWAppDelegate;
+			target = 19B11F10603C59A5A3183CE9F763072E /* YWAppDelegate */;
+			targetProxy = DD8D71B5E55F15FB87D05F542EEC5AE0 /* PBXContainerItemProxy */;
+		};
+		98EFDA81B682C17408BC27F9DC772980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C7C5FD310966070D9553E5B95C59641B /* Aspects */;
+			targetProxy = 8EB12C71F8E10C142CF43CDEE52D8835 /* PBXContainerItemProxy */;
+		};
+		A54F86E03728DF159529B12B5F78BF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XAspect;
+			target = 637681AF067D45D433ABA1FD34A6DAA6 /* XAspect */;
+			targetProxy = C1361ADD240A5B6A22EA2C049856692B /* PBXContainerItemProxy */;
+		};
+		D0E66510D4325FEE62851A83FC8A0E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C7C5FD310966070D9553E5B95C59641B /* Aspects */;
+			targetProxy = 95F81F31B5FF9A0EE11242752919AF23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21DF8CCE58C10223792E0189A602A5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1B0A5883FA805BB5E7652BA655DBE6 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		42DEEE714F3D478CA9B894F40681AE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E770D1593EC60C9240DAA2F7B0B7EA /* Pods-YWAnalytics_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		470AA4B545848C4CD65446BEDDA8394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FC0E6C4F53D40FC81AEFC812C7311C /* Pods-YWAnalytics_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		59AD9481A84908EA55A23F42B9595A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA91A4D44DCD0F3FBDBF07AE382E2202 /* XAspect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		5E7419C51403842A3F757348A0427D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD16DBB312716EE894D85B5991841B0 /* YWAppDelegate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YWAppDelegate/YWAppDelegate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		5E7E494C5AF8378DC3BD3BA5841A1101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF204A1FCFFC2471A68AFB4565D303A /* Pods-YWAnalytics_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93B842065640169BE63950A6D66D8075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD16DBB312716EE894D85B5991841B0 /* YWAppDelegate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YWAppDelegate/YWAppDelegate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		94CC74F6056204D931B75B92FC94D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7157081DD5DA2C252C9E78BB3F57D9DD /* Pods-YWAnalytics_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		97430FCA738D185DF4455B8F70F863D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA91A4D44DCD0F3FBDBF07AE382E2202 /* XAspect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		9BB8D208C95DCB16AF94844E9CEFB35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C802AED5670DC55D8FAD86BF4234C58 /* YWAnalytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YWAnalytics/YWAnalytics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		C30102B210269D77CE1FABF9C731A093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C802AED5670DC55D8FAD86BF4234C58 /* YWAnalytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YWAnalytics/YWAnalytics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		E1F0BA44E4C1FB86A30CA4C655383490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1B0A5883FA805BB5E7652BA655DBE6 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E87BF5DAAC9F506A17DBBFEC3E50FB9 /* Build configuration list for PBXNativeTarget "Pods-YWAnalytics_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7E494C5AF8378DC3BD3BA5841A1101 /* Debug */,
+				94CC74F6056204D931B75B92FC94D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A0E98B27D50D9EF21E824C6F388050 /* Build configuration list for PBXNativeTarget "XAspect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97430FCA738D185DF4455B8F70F863D7 /* Debug */,
+				59AD9481A84908EA55A23F42B9595A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558B4F736ABD8580E3C0EA2021B097D2 /* Build configuration list for PBXNativeTarget "YWAppDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7419C51403842A3F757348A0427D96 /* Debug */,
+				93B842065640169BE63950A6D66D8075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640A33B4851607BAA38FD20CCE79CECB /* Build configuration list for PBXNativeTarget "YWAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30102B210269D77CE1FABF9C731A093 /* Debug */,
+				9BB8D208C95DCB16AF94844E9CEFB35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742C56FC3C9F1A142EB9758F95F8A397 /* Build configuration list for PBXNativeTarget "Pods-YWAnalytics_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DEEE714F3D478CA9B894F40681AE46 /* Debug */,
+				470AA4B545848C4CD65446BEDDA8394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDD598D97160FAFC23522D96D16607C /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F0BA44E4C1FB86A30CA4C655383490 /* Debug */,
+				21DF8CCE58C10223792E0189A602A5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

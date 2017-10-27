@@ -1,4 +1,5 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/yezi-kk/YWSpecs.git'        #私有仓库地址
 
 target 'YWAnalytics_Example' do
   pod 'YWAnalytics', :path => '../'

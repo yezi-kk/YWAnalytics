@@ -9,34 +9,24 @@
 Pod::Spec.new do |s|
   s.name             = 'YWAnalytics'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YWAnalytics.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'YWAnalytics'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ye Wei/YWAnalytics'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/yezi-kk/YWAnalytics'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ye Wei' => 'yewei@cheddd.com' }
-  s.source           = { :git => 'https://github.com/Ye Wei/YWAnalytics.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Ye Wei' => '276208561@qq.com' }
+  s.source           = { :git => 'https://github.com/yezi-kk/YWAnalytics.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YWAnalytics/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YWAnalytics' => ['YWAnalytics/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
+  s.dependency 'Aspects', '~> 1.4.1'
+  s.dependency 'XAspect', '~> 1.0.5'
+  s.dependency 'YWAppDelegate', '~> 0.1.0'
 end
